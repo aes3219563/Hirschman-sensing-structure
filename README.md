@@ -13,5 +13,12 @@ On the same platform, compare to the DFT sensing structure:<br>
 　　HTM(2x128) takes 5.3 secs to do the recovery (speed increases by 76.7%)<br>
 The sparse HTM is super fast, but its recovery performance heavily depends on how the target image looks like or more specifically, depends on how it looks like after sparsification.<br> 
 We run this project to collect the recovery performances of different HTMs based on multiple types of input images. We would like to use statistical ways and machine learning to identify how can we pick up the appropriate HTMs for different target images to maximize the computational speed.
+We offer 4 apis to collect data:<br>
+　　http://www.pssautohelper.com:1988/HirschmanPost?r=*&c=*&s=*&k=*<br>
+r: number of rows (height) of target image<br>
+c: number of columns (width) of target image<br>
+s: number of linear measurements<br>
+k: dimension of DFT matrix used to generate the HTM<br>
+
 
     
