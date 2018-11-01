@@ -1,5 +1,7 @@
 # Hirschman-sensing-structure
-The compressive sensing (CS), enables us to recovery a sparse signal from its few linear measurements.<br>It is knowns that systems sensitive at the sampling node take the most advantage of CS.<br>Examples:<br>    Using CS, the MRI system reduces the irradiation time on the location of lesions<br>    Using CS, the large-area morniting system increases lifetime since each scan costs less energy
+The compressive sensing (CS), enables us to recovery a sparse signal from its few linear measurements.<br>It is knowns that systems sensitive at the sampling node take the most advantage of CS.<br>Examples:<br>
+        Using CS, the MRI system reduces the irradiation time on the location of lesions<br>
+        Using CS, the large-area morniting system increases lifetime since each scan costs less energy
 However, the CS requires much computations on its decoding.
 <br>On the platform of Python 3.7.0 (win-10@x64, i7-6700@3.4GHz), it takes 22.7 secs to recover a 256-point gray scaled image from its 128 times random linear measurements using single process Orthognal Matching Pursuit agrithom.
 <br>We generate the Hirschman Transform Matrix (HTM) by interpolating and circular shifting of a DFT matrix. It has been proved that all the HTMs satisfy the Mutual Incoherent Property (MIP) and can be used as the sensing structures in CS.
