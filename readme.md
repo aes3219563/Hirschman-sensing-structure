@@ -78,6 +78,6 @@ r=requests.post(url,data=json.dumps(sort))
 j=json.loads(r.text)
 #　{'result':True,'message':'success'}
 ```
-When a new feedback submitted, old one will be replaced.
+When a new feedback submitted, old one will be replaced. Our computational programs are running on a linux server@2.0GHz. It takes 10~20 secs to fully recover a 256-point image. We would like to add [parallel computing](https://github.com/aes3219563/Parallel-Computing) to increase response speed.
 
     
