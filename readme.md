@@ -12,7 +12,7 @@ On the same platform, compared to the DFT sensing structure:<br>
 　　HTM(32x8) takes 15.986 secs to do the recovery (speed increases by 29.6%)<br>
 　　HTM(2x128) takes 5.3 secs to do the recovery (speed increases by 76.7%)<br>
 The sparse HTM is super fast, but its recovery performance heavily depends on how the target image looks like or more specifically, depends on how it looks like after sparsification.<br> 
-We run this project to collect the recovery performances of different HTMs based on multiple types of input images. We would like to use statistical ways and machine learning to identify how can we pick up the appropriate HTMs for different images to maximize speed of CS recovery algorithm.<br>
+We run this project to collect the recovery performances of different HTMs based on multiple types of input images. We would like to use statistical ways and [machine learning](https://github.com/aes3219563/SSD-Model-for-small-object-recognization) to identify how can we pick up the appropriate HTMs for different images to maximize speed of CS recovery algorithm.<br>
 We offer 4 APIs to collect data, the algorithms on the server are also provided in our [Hirschman Transform Lib](https://github.com/aes3219563/Hirschman-Transform-Lib):<br>
 1.Submit target image:<br>
 　　http://www.pssautohelper.com:1988/HirschmanPost?r=*&c=*&s=*&k=*<br>
